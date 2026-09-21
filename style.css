@@ -47,6 +47,7 @@ h2{
 }
 .login{
     margin-top: 8px;
+    color: #B8B8C5;
 }
 p{
     color: #B8B8C5;
@@ -56,7 +57,13 @@ p{
     background-color: #BD93F9;
     height: 40px;
     border-radius: 10px;
-    
+    cursor: pointer;
+    border: none;
+    transition: trasform 0.3 ease;
+
+}
+#botao:hover{
+    transform: scale(1.01);
 }
 .link{
     color:#BD93F9;
@@ -66,6 +73,6 @@ p{
 
 }
 .loginSenha{
-    text-align: center;
     margin-top: 8px;
+    color: #B8B8C5;
 }

@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.corpo{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #071C19;
+    color:#F0EDE5;
+    padding: 40px;
+    height: 100vh;
+}
+
+.tema{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 30px;
+    text-align: center;
+
+}
+
+.logo{
+    height: 90px;
+    width: 90px;
+
+}
+.aba{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    gap: 30px;
+}
+.aba button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    width: 250px;
+    color: #235d55;
+    font-size: 20px;
+}
+.aba button:hover{
+    background-color: #0B211E;
+    color: #F0EDE5;
+
+}
+.aba button:first-child{
+    border-left: 2px solid #16423c;
+}
+.perfil{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    gap: 30px;
+
+}
+.perfil button{
+    background-color: #071C19;
+    align-items: center;
+    display: flex;
+    border: none;
+    text-align: left;
+    padding: 10px;
+    gap: 10px;
+    width: 250px;
+    border-radius: 20px;
+    color: #235d55;
+    font-size: 20px;
+}
+.perfil button:hover{
+    background-color: #0B211E;
+    color: #F0EDE5;
+}

@@ -14,21 +14,23 @@
             <h1> Entre na sua jornada.</h1>
             <p>Acesse cursos, empresas, parceiros e a Trilha do conhecimento.</p>
             
-            <p class="login">Login:</p>
-            <input id="seuNome" type="email" placeholder="   Seu email ">
+            <!-- O 'for' e o 'id' precisam ter exatamente o mesmo nome -->
+            <!-- label serve é a forma correta de se colocar em um login, quando voce clicar no login ele te levara para o campo de preencher -->
+            <label for="campo-login" class="login">Login:</label>
+            <input type="text" id="campo-login" placeholder=" Digite seu usuário">
 
-            <br>
-            <p>Senha:</p>
-            <input id="suaSenha" type="password" placeholder="   Sua senha" >
-            <br>
-            <button id="botao" onclick="enterapp"> Entrar</button>
-        
+            <label for="minhaSenha" class="loginSenha">Senha:</label>
+            <input id="minhaSenha" type="password" placeholder="   Sua senha" >
+            
+            <button id="botao" onclick="irParaProximaTela()">Entrar</button>
+
             <div class="Outro">
                 <p class="loginSenha">É mentor, empresa ou parceiro?
                 <a class="link" href="">Acesse aqui</a>
                 </p>
             </div>
 
+        <script src="script.js"></script>
     </section>
   </div>
 </body>
